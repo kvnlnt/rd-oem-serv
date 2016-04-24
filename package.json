@@ -7,14 +7,17 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "oem":{
-    "css":"./src/component.css",
-    "html":"./src/component.html",
-    "js":[
+  "oem": {
+    "css": "./src/component.css",
+    "html": "./src/component.html",
+    "js": [
       "./src/core.js",
       "./src/component.js"
     ]
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "colors": "^1.1.2"
+  }
 }
